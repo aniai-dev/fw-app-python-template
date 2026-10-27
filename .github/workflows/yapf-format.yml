@@ -1,5 +1,9 @@
 name: yapf formatter
 on: [push, pull_request]
+
+permissions:
+  contents: write
+
 jobs:
   autoyapf:
     runs-on: ubuntu-latest
